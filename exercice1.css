@@ -1,0 +1,86 @@
+.bill {
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+}
+
+.para1 {
+    color: blue;
+    font-size: 15px;
+    padding: 40px;
+    margin: 10px;
+}
+
+.para2 {
+    color: green;
+    font-size: 14px;
+    padding: 40px;
+    margin: 10px;
+}
+
+body {
+    border-width: 2px;
+    border-style: solid;
+    border-color: red;
+}
+li {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    text-align: center;
+    height: 15vh;
+}
+
+
+ol {
+    list-style: none;
+    width: 200px;
+}
+
+ol li {
+    font-size: 25px;
+    background: green;
+    margin: 10px;
+    padding:  20px;
+    cursor: pointer;
+    position: relative;
+    transition: ali .4s;
+    z-index: 5;
+}
+
+ol li:before {
+    content: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 5px;
+    background: red;
+    transition: unset;
+    z-index: -1;
+}
+ol li:hover ::before {
+    width: 100%;
+}
+
+ol li :nth-child(1)::before {
+    background: magenta;
+}
+
+ol li :nth-child(2)::before {
+    background: yellow;
+}
+
+ol li :nth-child(3)::before {
+    background: orange;
+}
+
+ol li :hover {
+    transform: translateX(20px);
+}
+
+
+
+

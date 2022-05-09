@@ -1,0 +1,64 @@
+header.header {
+    display: flex;
+    height: 150px;
+    align-items: center;
+    background-color: darkcyan;
+    border-radius: 20px;
+    }
+
+    ul.ul {
+        display: flex;
+        list-style: none;
+        float: right;
+        margin-right: 15px;
+        position: inherit;
+        font-size: 20px;
+    }
+
+    li a {
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        text-align: center;
+        margin-top: 15px;
+
+    }
+
+    .ul li a {
+        text-decoration: none;
+        padding: 5px, 8px;
+    }
+
+    .l1 {
+        float: right;
+    }
+
+    .leftbox {
+        width: 30%;
+         width: 30%;
+        float: left;
+        margin-bottom: -122px;
+    }
+
+    .leftbox img {
+        width: 100%;
+        border-radius: 26px;
+    }
+
+    .rightbox {
+        padding: 10px;
+        margin-bottom: 10px;
+        align-items: center;
+        width: 70%;
+        float: right;
+        text-align: right;
+
+    }
+
+    .article {
+        text-align: right;
+        padding: 10px;
+    }
+
+    
+
